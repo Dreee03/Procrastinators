@@ -8,6 +8,9 @@ tzdata==2025.2
 dj-database-url==3.0.1
 psycopg2==2.9.10
 
+# Supabase Storage (main package installs all dependencies)
+supabase==2.11.0
+
 # Google Gemini AI
 google-generativeai==0.8.5
 google-ai-generativelanguage==0.6.15
@@ -21,6 +24,10 @@ grpcio-status==1.71.2
 
 # Environment Variables
 python-dotenv==1.1.1
+
+# Production Server
+gunicorn==23.0.0
+whitenoise==6.8.2
 
 # Image Processing
 pillow==11.3.0
